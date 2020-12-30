@@ -1,0 +1,102 @@
+
+body {
+    background: url("background_template/d69759005031369dd6b7e534e10bc441.jpg");
+    /*color for the page*/
+    margin: 0;
+    /*shrinks the page a little*/
+    padding: 2rem 12rem;
+    /*center the page*/
+    font-family: "Helventica", sans-serif;
+    /*adding more stylish type of the text*/
+
+}
+nav ul li {
+    display: inline-block;
+    padding: 0 8px;
+
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+
+}
+main section:nth-child(1){
+    margin-top: 3rem;
+    background-image: url("background_template/d69759005031369dd6b7e534e10bc441.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 11rem 15rem;
+}
+main section:nth-child(1) h1 {
+    color: white;
+}
+
+main section:nth-child(1) button{
+    background: black;
+    border: none;
+    color: white;
+    font-size: 22px;
+    padding: 12px;
+    font-weight: bold;
+}
+main section:nth-child(2) article{
+    background: orange;
+    color: white;
+    width: 29%;
+    display: inline-block;
+    padding: 31px;
+}
+
+main section:nth-child(2) article{
+    text-align: center;
+}
+footer{
+    padding: 16px;
+}
+
+ header p{
+     float: left;
+ }
+ header img{
+     padding: 11px;
+ }
+
+ nav {
+     text-align: right;
+ }
+
+/*centering the page name*/
+h1 {
+    text-align: center;
+
+}
+
+/*adding color and weight to the hyper links Home, About, Contact*/
+nav.items a {
+    color: black;
+    font-weight: bold;
+}
+
+/*adding string style to all of the paragraphs*/
+p {
+    font-style: italic;
+    font-weight: bold;
+
+}
+/*adding some color style at the points next to the Home, About, Contact page*/
+.items li, a:first-line{
+    color: aliceblue;
+}
+
+/*adding some elements next to the h1*/
+h1:before {
+    /*"<< " */
+    content: "\00AB\0020";
+}
+
+h1:after{
+    /*" >>" */
+    content:"\0020\00BB";
+}
+
